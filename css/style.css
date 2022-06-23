@@ -7,6 +7,10 @@ body, p, h1{
     padding-right: 8%;
 }
 
+.bg-gray{
+    background-color: rgba(217, 224, 236, 0.2);
+}
+
 .w-250{
     width: 250px;
 }
@@ -156,4 +160,28 @@ input::placeholder{
 
 .features_block{
     height: 320px;
+}
+
+#feature_item_1, #feature_item_2{
+    position: relative;
+}
+
+#feature_item_1::before{
+    content: "";
+    background-image: url("./../img/card.jpg");
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+#feature_item_2::before{
+    content: "";
+    background-image: url("./../img/chart.jpg");
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: -50px;
 }
