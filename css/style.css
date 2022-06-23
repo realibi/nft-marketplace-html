@@ -7,6 +7,12 @@ body, p, h1{
     padding-right: 8%;
 }
 
+.bg-img-cover{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .bg-gray{
     background-color: rgba(217, 224, 236, 0.2);
 }
@@ -184,4 +190,21 @@ input::placeholder{
     position: absolute;
     top: 0;
     left: -50px;
+}
+
+.top_collections{
+    height: 540px;
+    width: 100%;
+}
+
+.top_collections_img_big{
+    height: 420px;
+    width: 100%;
+}
+
+.top_collections_avatar_big{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #3D00B7;
 }
